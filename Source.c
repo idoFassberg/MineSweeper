@@ -82,7 +82,7 @@ void main() {
 		case 4: //costume size board
 			while (chooseRowCol) {
 				printf("Please enter the size of the board (Lines <= 22 and Cols <= 22):");
-				sacnf("%d%d", &logRow, &logCol);
+				scanf("%d%d", &logRow, &logCol);
 				if (logRow > 22 || logRow < 1) {
 					printf("Number of lines is out of range!");
 					continue;
